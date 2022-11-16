@@ -1,3 +1,4 @@
 sphinx>=1.6,<2.0,!=1.6.4
 pyOpenSSL
 requests[security]
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
